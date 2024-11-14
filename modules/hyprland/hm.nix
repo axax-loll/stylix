@@ -7,7 +7,7 @@ let
   rgba = color: alpha: "rgba(${color}${alpha})";
 
   settings = {
-    decoration = {
+    decoration.shadow = {
       "color" = rgba base00 "99";
       "color_inactive" = rgba base00 "99";
     };
